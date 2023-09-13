@@ -1,0 +1,368 @@
+.body{
+    margin:0;
+    background-image: linear-gradient(rgb(105, 103, 103),rgb(224, 224, 224));
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+    margin-top: 10px;
+  
+    margin-right: 10px;
+    margin-left: 14px;
+  }
+
+  .card-template{
+    width:290px;
+    height:135px;
+    
+    font-size: 14px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.711);
+    box-shadow: 2px 2px #b8b8b8;
+    margin-left: 10px;
+  }
+  .title-checkbox {
+    display: flex; /* Use flexbox to align items horizontally */
+    flex-direction: row; /* Center items vertically within the flex container */
+    align-items:start;
+    margin-left: 14px;
+    
+    margin-right: 10px;
+    height:38px;
+    margin-top: 2px;
+    margin-bottom: 13px;
+   
+  }
+  label{
+    width:400px;
+    height:45px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+   font-size: 13px;
+  }
+  p{
+    font-size: 13px;
+  }
+  .backlogpfp{
+    width:14px;
+    margin-right: 7px;;
+    margin-top: 1px;
+  }
+  .todopfp{
+    width:13px;
+    margin-right: 7px;;
+    margin-top: 2px;
+  }
+  .inprogpfp{
+    width:15px;
+    margin-right: 7px;;
+    margin-top: 1px;
+  }
+  .donepfp{
+    width:15px;
+    margin-right: 7px;;
+    margin-top: 1px;
+  }
+  .cancelledpfp{
+    width:15px;
+    margin-right: 7px;;
+    margin-top: 1px;
+  }
+  
+  .footer{
+    margin-top: 0;
+    padding-top: 0;
+   margin-left: 14px;
+   margin-top: 6px;
+   margin-bottom: 4px;
+   
+  
+    height:20px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+  
+  }
+  
+  .footer-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.788);
+    height:10px;
+    box-shadow: 0.2px 0.2px #888888;
+    padding: 5px;
+    border-radius: 3px;
+    color: grey;
+  }
+  .bullet{
+    color:grey;
+    margin-right: 2px;
+    font-size: 40px;
+  }
+  .plus{
+    width:16px;
+    height:16px;
+    margin-top: 14px;
+    margin-left: 123px;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    
+  }
+  .dots{
+    width: 14px;
+    height:14px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+  /* .plus2{
+    width:16px;
+    height:16px;
+    margin-top: 0;
+    margin-left: 123px;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  } */
+  
+ 
+  .div1{
+   margin-right:10px;
+   display: flex;
+   flex-direction: column;
+  }
+  .div2{
+    margin-right:10px;
+  }
+  .div3{
+    margin-right:10px;
+    
+  
+  }
+  .div4{
+    margin-right:10px;
+    
+  }
+  .div5{
+    margin-right:10px;
+    
+  }
+  .daddy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    margin-right: 0;
+   
+  }
+  .div1title{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    width:290px;
+    height:60px;
+    background-color: rgb(235, 230, 230);
+    margin-left: 15px;
+  }
+  .div1title>p{
+    margin-right: 10px;
+    height:20px;
+   
+  }
+  .div2title{
+    display: flex;
+    flex-direction: row;
+    width:290px;
+    height:60px;
+    background-color: rgb(235, 230, 230);
+    margin-left: 15px;
+  }
+  .div2title>p{
+    margin-right: 10px;
+  
+  }
+  .div3title{
+    display: flex;
+    flex-direction: row;
+    width:290px;
+    height:60px;
+    background-color: rgb(235, 230, 230);
+    margin-left: 15px;
+  }
+  .div3title>p{
+    margin-right: 10px;
+  }
+  .div4title{
+    display: flex;
+    flex-direction: row;
+    width:290px;
+    height:60px;
+    background-color: rgb(235, 230, 230);
+    margin-left: 15px;
+  }
+  .div4title>p{
+    margin-right: 10px;
+  }
+  .div5title{
+    display: flex;
+    flex-direction: row;
+    width:290px;
+    height:60px;
+    background-color: rgb(235, 230, 230);
+    margin-left: 15px;
+  }
+  .div5title>p{
+    margin-right: 10px;
+  }
+  
+  .hero{
+    margin-left:0;
+  }
+  
+  
+  .urgent{
+    width:14px;
+    margin-right: 3px;
+    margin-top: 4px;
+    border-radius: 3px;
+    box-shadow: 0.2px 0.2px #888888;
+    margin-right: 10px;
+    padding-left: 5px;;
+    padding-right: 5px;;
+    padding-top: 2px;
+  }
+  .high{
+    width:22px;
+    box-shadow: 0.2px 0.2px #888888;
+    margin-right: 10px;
+    border-radius: 3px;
+  
+  }
+  .medium{
+    width:23px;
+    margin-top: 1px;
+    box-shadow: 0.2px 0.2px #888888;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  .low{
+    width: 20px;
+    margin-top: 1px;
+    box-shadow: 0.2px 0.2px #888888;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  .nopriority{
+    width:12px;
+    margin-right: 10px;
+    box-shadow: 0.2px 0.2px #888888;
+    margin-right: 10px;
+    padding:4px;
+    border-radius: 3px;
+  }
+  
+  .backlog{
+    width:15px;
+    height:15px;
+    margin-bottom: 18px;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .todo{
+    width:15px;
+    height:15px;
+    margin-top: 26px;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .inprog{
+    width:18px;
+    height:18px;
+    margin-top: 21px;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .done{
+    width:19px;
+    height:16px;
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  .cancelled{
+    width:15px;
+    height:15px;
+    margin-top: 18px;
+    margin-right: 15px;
+    margin-left: 10px;
+  }
+  
+  .options{
+    background-color: rgb(235, 230, 230);
+    margin-top: 0;
+    background-color: rgb(122, 118, 118);
+    width:180px;
+  }
+
+  html{
+    
+    margin-left: 40px;
+    height:200px;
+    
+    
+  }
+  
+  .div2title>p{
+    margin-top: 24px;
+  }
+  .div3title>p{
+    margin-top: 21px;
+  }
+  .div4ttile>p{
+    margin-top: 25px;
+  }
+
+   
+  .pfp1{
+    width:22px;
+    height:24px;
+    margin-right: 10px;
+    margin-top: 8px;;
+    margin-bottom: 14px;
+  }
+   
+  .pfp2{
+    width:22px;
+    height:24px;
+    margin-right: 10px;
+    margin-top: 14px;;
+  }
+   
+  .pfp3{
+    width:22px;
+    height:24px;
+    margin-right: 10px;
+    margin-top: 22px;;
+  }
+   
+  .pfp4{
+    width:22px;
+    height:24px;
+    margin-right: 10px;
+    margin-top: 14px;
+    margin-bottom: 100px;
+  }
+   
+  .pfp5{
+    width:22px;
+    height:24px;
+    margin-right: 10px;
+    margin-top: 18px;;
+    margin-bottom: 20px;
+  }
